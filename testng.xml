@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- parallel的取值有三个:tests,methods,classes: 1. 在suite中使用的话，它控制各个test的执行顺序，例如我把发送测试结果邮件放到最后面执行。 
+	2. 在test中使用的话，它控制各个class的执行顺序。 *. 在class中使用priority/enable/dependsOnMethods,则只能束缚在自己的class内部执行顺序。 -->
+<suite
+	name="Suite"
+	parallel="classes"
+	thread-count="1">
+	<listeners>
+		<!-- <listener class-name="org.uncommons.reportng.HTMLReporter" /> <listener 
+			class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
+
+		<listener class-name="com.b.publish.util.RetryListener"></listener>
+		<listener class-name="com.b.publish.util.TestngListener"></listener>
+	</listeners>
+	<parameter
+		name="username"
+		value="1357863545@qq.com" />
+	<parameter
+		name="password"
+		value="0108152535" />
+<!-- 
+	<test name="Test1">
+		<classes>
+			<class name="com.f.muke.testcase.SuiteTest001_Login" />
+		</classes>
+	</test>
+
+	<test name="Test2">
+		<classes>
+			<class name="com.f.muke.testcase.SuiteTest002_Logout"></class>
+			<class name="com.f.muke.testcase.SuiteTest003_SwitchTitle"></class>
+		</classes>
+	</test>
+ -->
+	<test name="Test3">
+		<classes>
+			<!-- <class name="com.f.dianqingoa.testcase.Test003_Sidebar_Main"></class> -->
+			<!-- <class name="com.f.dianqingoa.testcase.Test006_Sidebar_UnitVehicleManagement" /> -->
+			<!-- <class	name="com.f.dianqingoa.testcase.Test019_WinSidebar_DianqingsWayOfManagement" /> -->
+ 			<class
+				name="com.f.dianqingoa.testcase.Test001_OnlineExperience" />
+			<class
+				name="com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement" />
+			<class
+				name="com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement" />
+			<class
+				name="com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen" />
+			<class
+				name="com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook" /> 
+
+
+			<class
+				name="com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement" />
+			<class
+				name="com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement" />
+			<class
+				name="com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement" />
+			<class
+				name="com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement" />
+			<class
+				name="com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement" />
+			<class
+				name="com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement" />
+			<class
+				name="com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement" />
+			<class
+				name="com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet" />
+			<class
+				name="com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld" />
+			<class
+				name="com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum" />
+			<class
+				name="com.f.dianqingoa.testcase.Test017_Sidebar_VideoSurveillanceSystem" />
+			<class
+				name="com.f.dianqingoa.testcase.Test018_Sidebar_MISInformationCommunication" /> 
+
+
+ 			<class
+				name="com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience" />
+			<class
+				name="com.f.dianqingoa.testcase.Test021_WinSidebar_DianqingInvoicingManagementSystem_Experience" />
+			<class
+				name="com.f.dianqingoa.testcase.Test022_WinSidebar_DianqingCRMCustomerManagementSystem_Experience" />
+			<class
+				name="com.f.dianqingoa.testcase.Test023_WinSidebar_DianqingAllStaffAttendance_Experience" />
+		 	<class
+				name="com.f.dianqingoa.testcase.Test024_WinSidebar_DianqingWMSWarehouseManagementSystem_Experience" />
+		 	<class
+				name="com.f.dianqingoa.testcase.Test025_WinSidebar_DianqingDRPWechatDistributionSystem_Experience" />
+			<class
+				name="com.f.dianqingoa.testcase.Test026_WinSidebar_DianqingEBRBudgetReimbursementSystem_Experience" />
+			<class
+				name="com.f.dianqingoa.testcase.Test027_WinSidebar_DianqingInetIntranetCommunicationScheme_Experience" />
+			<class
+				name="com.f.dianqingoa.testcase.Test029_WinSidebar_DianqingERPEnterpriseManagementSystem_Experience" />
+			<class
+				name="com.f.dianqingoa.testcase.Test028_WinSidebar_DianqingPMSPortManagementSystem_Experience" />
+		 	<class
+				name="com.f.dianqingoa.testcase.Test030_WinSidebar_DianqingDiecuttingERPManagementSystem_Experience" />
+ 			<class
+				name="com.f.dianqingoa.testcase.Test031_SendNews" />  
+
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,446 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.oa.test</groupId>
+  <artifactId>dianqingOA</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>dianqingOA</name>
+  <url>http://maven.apache.org</url>
+
+	<!-- 实现版本控制 -->
+	<properties>
+		<!-- 文件拷贝时的编码 -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding><!-- 让整个项目统一字符集编码 -->
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding><!-- 编译时的编码 -->
+    	<argLine>-Dfile.encoding=UTF-8</argLine><!-- 解决控制台中文乱码  -->
+		<xmlFileName>testng.xml</xmlFileName>
+		<maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format><!-- 设置时间格式 -->
+		<aspectj.version>1.8.10</aspectj.version>
+		<spring.version>3.1.2.RELEASE</spring.version>
+	</properties>
+
+	<dependencies>
+<!-- 		<dependency>
+	        <groupId>io.rest-assured</groupId>
+	        <artifactId>rest-assured</artifactId>
+	        <version>3.1.0</version>
+	        <scope>test</scope>
+	    </dependency>
+	    
+		<dependency>
+	        <groupId>net.sourceforge.jexcelapi</groupId>
+	        <artifactId>jxl</artifactId>
+	        <version>2.6.12</version>
+	    </dependency> -->
+	    
+	     <!-- 依赖reportNg 关联testNg-->
+<!-- 	    <dependency>
+	        <groupId>org.uncommons</groupId>
+	        <artifactId>reportng</artifactId>
+	        <version>1.1.4</version>
+	        <scope>test</scope>
+	        <exclusions>
+	            <exclusion>
+	                <groupId>org.testng</groupId>
+	                <artifactId>testng</artifactId>
+	            </exclusion>
+	        </exclusions>
+	    </dependency>
+	
+	    <dependency>
+	        <groupId>ru.yandex.qatools.allure</groupId>
+	        <artifactId>allure-testng-adaptor</artifactId>
+	        <version>1.3.6</version>
+	        <exclusions>
+	            <exclusion>
+	                <groupId>org.testng</groupId>
+	                <artifactId>testng</artifactId>
+	            </exclusion>
+	        </exclusions>
+	    </dependency>
+	     -->
+	    <!-- 依赖Guice -->
+	    <dependency>
+	        <groupId>com.google.inject</groupId>
+	        <artifactId>guice</artifactId>
+	        <version>4.0</version>
+	    </dependency>
+	
+	    <dependency>
+	        <groupId>io.qameta.allure</groupId>
+	        <artifactId>allure-testng</artifactId>
+	        <version>2.0-BETA14</version>
+	        <scope>test</scope>
+	     </dependency>
+	
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+		</dependency>
+		
+		<!-- 依赖testNg -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.2</version>
+		</dependency>
+
+		<!-- 加入selenium做webUI测试,选用selenium2 -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>2.44.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>2.44.0</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone -->
+		<dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>selenium-server-standalone</artifactId>
+		    <version>2.44.0</version>
+		</dependency>
+
+		<!-- 日志 -->
+		<!-- slf4j-api包 是日志的接口,仅提供接口,没有实现,核心接口包 -->
+		<!-- SLF4J支持多个日志系统，比如NOP, Simple, log4j version 1.2, log4j version 1.3, JDK 1.4 logging, JCL and logback -->
+		<dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+
+		<!-- log4j,logback等等才是日志的真正实现  -->
+		<dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+        
+        <!-- slf4j-simple包 是slf4j提供的一个简单实现  -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+        
+        <!-- log4j-1.2.16 使用log4j实现 -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        
+        <!-- slf4j-log4j12-1.6 将slf4j接口转化为log4j接口,log4j并不直接实现slf4j，但是有专门的一层桥接slf4j-log4j12来实现slf4j -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.21</version>
+        </dependency>
+
+		<!-- nop和log4j一样 是一个日志系统，也是 log的一种实现 -->
+		<dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-nop</artifactId>
+		    <version>1.7.26</version>
+		    <scope>test</scope>
+		</dependency>
+		
+		<!-- ======================导入allure-testng 的依赖====================== -->
+		<!-- Allure的jar包 -->
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<!-- <version>${aspectj.version}</version> -->
+			<!-- <version>LAST_VERSION</version> -->
+			<version>2.12.1</version>
+		</dependency>
+		
+		<!-- Allure实现TestNG报告解析优化所需的jar包 -->
+		<dependency>
+		    <groupId>org.aspectj</groupId>
+		    <artifactId>aspectjweaver</artifactId>
+		    <version>1.8.10</version>
+		</dependency>
+		
+		
+		
+		<!-- spring begin -->
+		<!-- <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>${spring.version}</version>
+		</dependency> -->
+		<!-- spring end -->
+
+		<!-- web jar -->
+		<!-- <dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.1.2</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+			<version>2.3.1</version>
+			<scope>provided</scope>
+		</dependency> -->
+		<!-- jackson jar -->
+		<!-- <dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-jaxrs</artifactId>
+			<version>1.9.11</version>
+		</dependency> -->
+
+		<!-- commons jar -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.3</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.8</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.8.3</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-chain</groupId>
+			<artifactId>commons-chain</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+			<version>1.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+			<version>3.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-pool2</artifactId>
+			<version>2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-digester3</artifactId>
+			<version>3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-net</groupId>
+			<artifactId>commons-net</artifactId>
+			<version>3.3</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-dbutils</groupId>
+			<artifactId>commons-dbutils</artifactId>
+			<version>1.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-email</artifactId>
+			<version>1.3.3</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>1.4</version>
+		</dependency>
+
+		<!-- jstl jar -->
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>taglibs</groupId>
+			<artifactId>standard</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+		<!-- 日志相关 -->
+		<!-- <dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.16</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.5</version>
+		</dependency> -->
+
+		<!-- mysql -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.31</version>
+		</dependency>
+		
+	</dependencies>
+
+	<!-- 添加 build 元素,指定项目以什么样的方式去构建 -->
+	<build>
+		<finalName>OAandMuke</finalName>
+		<plugins>
+			<!-- 资源配置插件：不配置就默认,设置xml、properties资源文件的编码格式 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.0.2</version>
+				<configuration>
+					<encoding>${project.build.sourceEncoding}</encoding>
+				</configuration>
+			</plugin>
+			
+			<!-- 编译插件： -->
+			<plugin>
+				<!-- 指定项目源码的jdk版本,以及编码格式 -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.8</source><!-- 源代码编译版本 -->
+					<target>1.8</target><!-- 目标平台编译版本 -->
+					<encoding>UTF-8</encoding><!-- 字符集编码，解决"编码 GBK 的不可映射字符"问题 -->
+				</configuration>
+			</plugin>
+			
+			<!-- 测试插件：添加插件 关联testNg.xml -->
+			<plugin>
+				<!-- 配置maven-surefire-plugin插件来使用maven命令来调用测试套件 -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.20</version>
+				<configuration>
+				
+					<!-- ==============================Allure测试报告============================== -->
+					<!-- =======================cmd进入项目根目录:cd D:\eclipse-workspace\OAandMuke==================== -->
+					<!-- =======================再输入:allure serve target/allure-results==================== -->
+				
+					<!--设置参数命令行 -->
+					<argLine>
+						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+					</argLine>
+					
+					<!--生成allure-result的目录-->
+                    <systemProperties>
+                        <property>
+                            <name>allure.results.directory</name>
+                            <value>./target/allure-results</value>
+                        </property>
+                    </systemProperties>
+					
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile><!-- 要执行的测试套件路径/名称 -->
+					</suiteXmlFiles>
+				
+					<!-- 加入编码设置，否则生成的报告会中文乱码 -->
+					<argLine>-Dfile.encoding=UTF-8</argLine>
+				
+					<outputDirectory>${basedir}/target</outputDirectory><!-- 报告输出目录，感觉没起作用？ -->
+					
+					<!-- <forkMode>always</forkMode> --><!-- 过时 -->
+					<!-- <forkCount>1</forkCount> <reuseForks>true</reuseForks> -->
+				
+					
+                    <!--是否忽略html，解释见下图。与之后在reportNg报告上显示截图相关。当前已经使用allure了，这里可以直接去掉啦-->
+					<systemPropertyVariables>
+                        <org.uncommons.reportng.escape-output>false</org.uncommons.reportng.escape-output>
+                    </systemPropertyVariables>
+					
+					<!--测试失败后，是否忽略并继续测试-->
+                    <testFailureIgnore>true</testFailureIgnore>
+
+				</configuration>
+				
+				<dependencies>
+					<dependency>
+						<groupId>org.aspectj</groupId>
+						<artifactId>aspectjweaver</artifactId>
+						<!-- <version>${aspectj.version}</version> -->
+						<version>1.8.10</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+			
+			<!-- 测试覆盖率(Cobertura插件)通过运行mvn cobertura:cobertura将会在target/site/cobertura目录下生成index.html -->
+			<plugin>
+		        <groupId>org.codehaus.mojo</groupId>
+		        <artifactId>cobertura-maven-plugin</artifactId>
+		        <version>2.7</version>
+		    </plugin>
+		    
+		</plugins>
+	</build>
+</project>

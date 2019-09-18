@@ -1,0 +1,39 @@
+# Created on 2019-09-18T18:55:04.628
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created on 2019-09-18T18:55:12.811
+Unexpected IOException with stream: [TestResult name=template_managementLink status=FAILURE method=Test003_Sidebar_WorkFlowManagement.template_managementLink()[pri:3, instance:com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@223d2c72] output={null}]
+
+# Created on 2019-09-18T18:55:12.815
+Unexpected IOException with stream: 
+
+
+# Created on 2019-09-18T18:55:12.829
+Unexpected IOException: 9,1,com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement,template_managementLink(com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement),null,no such element: Unable to locate element: {"method":"id"\002C"selector":"left_menu"}\000A  (Session info: chrome=68.0.3440.84)\000A  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)\002Cplatform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 10.03 seconds\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '2.44.0'\002C revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8'\002C time: '2014-10-23 13:11:40'\000ASystem info: host: 'DEEP-1907221518'\002C ip: '10.0.162.204'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_101'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{mobileEmulationEnabled=false\002C hasTouchScreen=false\002C platform=XP\002C acceptSslCerts=false\002C goog:chromeOptions={debuggerAddress=localhost:53984}\002C acceptInsecureCerts=false\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C setWindowRect=true\002C unexpectedAlertBehaviour=\002C applicationCacheEnabled=false\002C rotatable=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)\002C userDataDir=C:\005CUsers\005CADMINI~1\005CAppData\005CLocal\005CTemp\005Cscoped_dir7940_23583}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C version=68.0.3440.84\002C browserConnectionEnabled=false\002C nativeEvents=true\002C locationContextEnabled=true\002C cssSelectorsEnabled=true}]\000ASession ID: 78e848cb73fc1c24c948915d1beb6371,null
+
+
+# Created on 2019-09-18T18:55:12.837
+Unexpected IOException: 5,1,com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement,template_managementLink(com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement),com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement,null,null
+
+
+# Created on 2019-09-18T18:55:23.912
+Unexpected IOException with stream: [TestResult name=template_managementLink status=FAILURE method=Test003_Sidebar_WorkFlowManagement.template_managementLink()[pri:3, instance:com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@223d2c72] output={null}]
+
+# Created on 2019-09-18T18:55:23.916
+Unexpected IOException with stream: 
+
+
+# Created on 2019-09-18T18:55:23.924
+Unexpected IOException: 9,1,com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement,template_managementLink(com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement),null,no such element: Unable to locate element: {"method":"id"\002C"selector":"left_menu"}\000A  (Session info: chrome=68.0.3440.84)\000A  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)\002Cplatform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 10.07 seconds\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '2.44.0'\002C revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8'\002C time: '2014-10-23 13:11:40'\000ASystem info: host: 'DEEP-1907221518'\002C ip: '10.0.162.204'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_101'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{mobileEmulationEnabled=false\002C hasTouchScreen=false\002C platform=XP\002C acceptSslCerts=false\002C goog:chromeOptions={debuggerAddress=localhost:53984}\002C acceptInsecureCerts=false\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C setWindowRect=true\002C unexpectedAlertBehaviour=\002C applicationCacheEnabled=false\002C rotatable=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)\002C userDataDir=C:\005CUsers\005CADMINI~1\005CAppData\005CLocal\005CTemp\005Cscoped_dir7940_23583}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C version=68.0.3440.84\002C browserConnectionEnabled=false\002C nativeEvents=true\002C locationContextEnabled=true\002C cssSelectorsEnabled=true}]\000ASession ID: 78e848cb73fc1c24c948915d1beb6371,null
+
+
+# Created on 2019-09-18T18:55:23.931
+Unexpected IOException: 5,1,com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement,template_managementLink(com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement),com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement,null,null
+
+

@@ -1,0 +1,7 @@
+#surefire_0
+#Wed Sep 18 18:51:41 CST 2019
+org.uncommons.reportng.escape-output=false
+allure.results.directory=./target/allure-results
+user.dir=D\:\\eclipse-workspace\\dianqingOA
+localRepository=D\:\\maven_repository
+basedir=D\:\\eclipse-workspace\\dianqingOA
