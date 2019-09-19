@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="90" passed="90">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="637704" started-at="2019-09-18T10:59:59Z" finished-at="2019-09-18T11:10:37Z">
+    <groups>
+    </groups>
+    <test name="Test3" duration-ms="637704" started-at="2019-09-18T10:59:59Z" finished-at="2019-09-18T11:10:37Z">
+      <class name="com.f.dianqingoa.testcase.Test022_WinSidebar_DianqingCRMCustomerManagementSystem_Experience">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test022_WinSidebar_DianqingCRMCustomerManagementSystem_Experience@1a482e36]" name="beforeClass" is-config="true" duration-ms="8085" started-at="2019-09-18T11:06:48Z" finished-at="2019-09-18T11:06:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="winLeft_Customer_Management_System()[pri:22, instance:com.f.dianqingoa.testcase.Test022_WinSidebar_DianqingCRMCustomerManagementSystem_Experience@1a482e36]" name="winLeft_Customer_Management_System" duration-ms="4318" started-at="2019-09-18T11:06:56Z" description="悬停&quot;点晴CRM客户管理系统&quot;" finished-at="2019-09-18T11:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winLeft_Customer_Management_System -->
+        <test-method status="PASS" signature="winMain_Experience_Start3()[pri:22, instance:com.f.dianqingoa.testcase.Test022_WinSidebar_DianqingCRMCustomerManagementSystem_Experience@1a482e36]" name="winMain_Experience_Start3" duration-ms="6025" started-at="2019-09-18T11:07:00Z" description="点击&quot;点晴CRM客户管理系统&quot;页&quot;立即体验&quot;" depends-on-methods="com.f.dianqingoa.testcase.Test022_WinSidebar_DianqingCRMCustomerManagementSystem_Experience.winLeft_Customer_Management_System" finished-at="2019-09-18T11:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winMain_Experience_Start3 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test022_WinSidebar_DianqingCRMCustomerManagementSystem_Experience@1a482e36]" name="afterClass" is-config="true" duration-ms="3199" started-at="2019-09-18T11:07:06Z" finished-at="2019-09-18T11:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test022_WinSidebar_DianqingCRMCustomerManagementSystem_Experience -->
+      <class name="com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement@57a3af25]" name="beforeClass" is-config="true" duration-ms="24361" started-at="2019-09-18T11:03:12Z" finished-at="2019-09-18T11:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="improving_Proposal_Management()[pri:10, instance:com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement@57a3af25]" name="improving_Proposal_Management" duration-ms="3130" started-at="2019-09-18T11:03:36Z" description="验证：展开&#039;改善提案管理&#039;" finished-at="2019-09-18T11:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- improving_Proposal_Management -->
+        <test-method status="PASS" signature="i_want_to_submit_a_proposalLink()[pri:10, instance:com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement@57a3af25]" name="i_want_to_submit_a_proposalLink" duration-ms="2151" started-at="2019-09-18T11:03:39Z" description="验证：点击&#039;我要提交提案&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement.improving_Proposal_Management" finished-at="2019-09-18T11:03:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i_want_to_submit_a_proposalLink -->
+        <test-method status="PASS" signature="proposal_Browsing_and_FeedbackLink()[pri:10, instance:com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement@57a3af25]" name="proposal_Browsing_and_FeedbackLink" duration-ms="2235" started-at="2019-09-18T11:03:41Z" description="验证：点击&#039;提案浏览及反馈&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement.improving_Proposal_Management" finished-at="2019-09-18T11:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proposal_Browsing_and_FeedbackLink -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement@57a3af25]" name="afterClass" is-config="true" duration-ms="3209" started-at="2019-09-18T11:03:44Z" finished-at="2019-09-18T11:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement -->
+      <class name="com.f.dianqingoa.testcase.Test030_WinSidebar_DianqingDiecuttingERPManagementSystem_Experience">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test030_WinSidebar_DianqingDiecuttingERPManagementSystem_Experience@6cf0e0ba]" name="beforeClass" is-config="true" duration-ms="7484" started-at="2019-09-18T11:09:42Z" finished-at="2019-09-18T11:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="winLeft_Die_cutting_ERP_Management_System()[pri:30, instance:com.f.dianqingoa.testcase.Test030_WinSidebar_DianqingDiecuttingERPManagementSystem_Experience@6cf0e0ba]" name="winLeft_Die_cutting_ERP_Management_System" duration-ms="3793" started-at="2019-09-18T11:09:50Z" description="鼠标悬停&#039;点晴模切ERP管理系统&#039;" finished-at="2019-09-18T11:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winLeft_Die_cutting_ERP_Management_System -->
+        <test-method status="PASS" signature="winMain_Experience_Start11()[pri:30, instance:com.f.dianqingoa.testcase.Test030_WinSidebar_DianqingDiecuttingERPManagementSystem_Experience@6cf0e0ba]" name="winMain_Experience_Start11" duration-ms="8499" started-at="2019-09-18T11:09:54Z" description="验证点击&#039;点晴模切ERP管理系统&#039;页&#039;立即体验&#039;跳转至&#039;点晴ERP子系统&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test030_WinSidebar_DianqingDiecuttingERPManagementSystem_Experience.winLeft_Die_cutting_ERP_Management_System" finished-at="2019-09-18T11:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winMain_Experience_Start11 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test030_WinSidebar_DianqingDiecuttingERPManagementSystem_Experience@6cf0e0ba]" name="afterClass" is-config="true" duration-ms="3205" started-at="2019-09-18T11:10:02Z" finished-at="2019-09-18T11:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test030_WinSidebar_DianqingDiecuttingERPManagementSystem_Experience -->
+      <class name="com.f.dianqingoa.testcase.Test024_WinSidebar_DianqingWMSWarehouseManagementSystem_Experience">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test024_WinSidebar_DianqingWMSWarehouseManagementSystem_Experience@5b8dfcc1]" name="beforeClass" is-config="true" duration-ms="8136" started-at="2019-09-18T11:07:30Z" finished-at="2019-09-18T11:07:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="winLeft_Warehouse_Management_System()[pri:24, instance:com.f.dianqingoa.testcase.Test024_WinSidebar_DianqingWMSWarehouseManagementSystem_Experience@5b8dfcc1]" name="winLeft_Warehouse_Management_System" duration-ms="4251" started-at="2019-09-18T11:07:38Z" description="悬停&quot;点晴WMS仓储管理系统&quot;" finished-at="2019-09-18T11:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winLeft_Warehouse_Management_System -->
+        <test-method status="PASS" signature="winMain_Experience_Start5()[pri:24, instance:com.f.dianqingoa.testcase.Test024_WinSidebar_DianqingWMSWarehouseManagementSystem_Experience@5b8dfcc1]" name="winMain_Experience_Start5" duration-ms="7369" started-at="2019-09-18T11:07:42Z" description="点击&quot;点晴WMS仓储管理系统&quot;页&quot;立即体验&quot;" depends-on-methods="com.f.dianqingoa.testcase.Test024_WinSidebar_DianqingWMSWarehouseManagementSystem_Experience.winLeft_Warehouse_Management_System" finished-at="2019-09-18T11:07:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winMain_Experience_Start5 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test024_WinSidebar_DianqingWMSWarehouseManagementSystem_Experience@5b8dfcc1]" name="afterClass" is-config="true" duration-ms="3220" started-at="2019-09-18T11:07:50Z" finished-at="2019-09-18T11:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test024_WinSidebar_DianqingWMSWarehouseManagementSystem_Experience -->
+      <class name="com.f.dianqingoa.testcase.Test018_Sidebar_MISInformationCommunication">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test018_Sidebar_MISInformationCommunication@4efbca5a]" name="beforeClass" is-config="true" duration-ms="7303" started-at="2019-09-18T11:05:42Z" finished-at="2019-09-18T11:05:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="MIS_Information_Communication()[pri:18, instance:com.f.dianqingoa.testcase.Test018_Sidebar_MISInformationCommunication@4efbca5a]" name="MIS_Information_Communication" duration-ms="17562" started-at="2019-09-18T11:05:50Z" description="验证：点击&#039;MIS信息通&#039;" finished-at="2019-09-18T11:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MIS_Information_Communication -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test018_Sidebar_MISInformationCommunication@4efbca5a]" name="afterClass" is-config="true" duration-ms="3187" started-at="2019-09-18T11:06:07Z" finished-at="2019-09-18T11:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test018_Sidebar_MISInformationCommunication -->
+      <class name="com.f.dianqingoa.testcase.Test001_OnlineExperience">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test001_OnlineExperience@49ec71f8]" name="beforeClass" is-config="true" duration-ms="9733" started-at="2019-09-18T10:59:59Z" finished-at="2019-09-18T11:00:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="onlineExperience()[pri:1, instance:com.f.dianqingoa.testcase.Test001_OnlineExperience@49ec71f8]" name="onlineExperience" duration-ms="1313" started-at="2019-09-18T11:00:09Z" description="验证：官网页面点击&#039;在线体验&#039;跳转至OA首页" finished-at="2019-09-18T11:00:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlineExperience -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test001_OnlineExperience@49ec71f8]" name="afterClass" is-config="true" duration-ms="1094" started-at="2019-09-18T11:00:10Z" finished-at="2019-09-18T11:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test001_OnlineExperience -->
+      <class name="com.f.dianqingoa.testcase.Test025_WinSidebar_DianqingDRPWechatDistributionSystem_Experience">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test025_WinSidebar_DianqingDRPWechatDistributionSystem_Experience@747ddf94]" name="beforeClass" is-config="true" duration-ms="7199" started-at="2019-09-18T11:07:53Z" finished-at="2019-09-18T11:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="winLeft_Wechat_Distribution_System()[pri:25, instance:com.f.dianqingoa.testcase.Test025_WinSidebar_DianqingDRPWechatDistributionSystem_Experience@747ddf94]" name="winLeft_Wechat_Distribution_System" duration-ms="4339" started-at="2019-09-18T11:08:00Z" description="悬停&quot;点晴DRP微信分销系统&quot;" finished-at="2019-09-18T11:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winLeft_Wechat_Distribution_System -->
+        <test-method status="PASS" signature="winMain_Experience_Start6()[pri:25, instance:com.f.dianqingoa.testcase.Test025_WinSidebar_DianqingDRPWechatDistributionSystem_Experience@747ddf94]" name="winMain_Experience_Start6" duration-ms="5804" started-at="2019-09-18T11:08:05Z" description="点击&quot;点晴DRP微信分销系统&quot;页&quot;立即体验&quot;" depends-on-methods="com.f.dianqingoa.testcase.Test025_WinSidebar_DianqingDRPWechatDistributionSystem_Experience.winLeft_Wechat_Distribution_System" finished-at="2019-09-18T11:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winMain_Experience_Start6 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test025_WinSidebar_DianqingDRPWechatDistributionSystem_Experience@747ddf94]" name="afterClass" is-config="true" duration-ms="3178" started-at="2019-09-18T11:08:10Z" finished-at="2019-09-18T11:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test025_WinSidebar_DianqingDRPWechatDistributionSystem_Experience -->
+      <class name="com.f.dianqingoa.testcase.Test023_WinSidebar_DianqingAllStaffAttendance_Experience">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test023_WinSidebar_DianqingAllStaffAttendance_Experience@72967906]" name="beforeClass" is-config="true" duration-ms="7595" started-at="2019-09-18T11:07:09Z" finished-at="2019-09-18T11:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="winLeft_Solution_of_full_attendance()[pri:23, instance:com.f.dianqingoa.testcase.Test023_WinSidebar_DianqingAllStaffAttendance_Experience@72967906]" name="winLeft_Solution_of_full_attendance" duration-ms="4526" started-at="2019-09-18T11:07:17Z" description="悬停&quot;点晴全员考勤解决方案&quot;" finished-at="2019-09-18T11:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winLeft_Solution_of_full_attendance -->
+        <test-method status="PASS" signature="winMain_Experience_Start4()[pri:23, instance:com.f.dianqingoa.testcase.Test023_WinSidebar_DianqingAllStaffAttendance_Experience@72967906]" name="winMain_Experience_Start4" duration-ms="5259" started-at="2019-09-18T11:07:22Z" description="点击&quot;点晴全员考勤解决方案&quot;页&quot;立即体验&quot;" depends-on-methods="com.f.dianqingoa.testcase.Test023_WinSidebar_DianqingAllStaffAttendance_Experience.winLeft_Solution_of_full_attendance" finished-at="2019-09-18T11:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winMain_Experience_Start4 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test023_WinSidebar_DianqingAllStaffAttendance_Experience@72967906]" name="afterClass" is-config="true" duration-ms="3200" started-at="2019-09-18T11:07:27Z" finished-at="2019-09-18T11:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test023_WinSidebar_DianqingAllStaffAttendance_Experience -->
+      <class name="com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a]" name="beforeClass" is-config="true" duration-ms="7555" started-at="2019-09-18T11:02:05Z" finished-at="2019-09-18T11:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="document_Receiving_and_Dispatching_Management()[pri:7, instance:com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a]" name="document_Receiving_and_Dispatching_Management" duration-ms="3308" started-at="2019-09-18T11:02:12Z" description="验证：展开&#039;公文收发管理&#039;" finished-at="2019-09-18T11:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- document_Receiving_and_Dispatching_Management -->
+        <test-method status="PASS" signature="acceptanceLink()[pri:7, instance:com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a]" name="acceptanceLink" duration-ms="1449" started-at="2019-09-18T11:02:16Z" description="验证：点击&#039;收文承办&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.document_Receiving_and_Dispatching_Management" finished-at="2019-09-18T11:02:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptanceLink -->
+        <test-method status="PASS" signature="audit_of_Receiving_and_Sending_DocumentsLink()[pri:7, instance:com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a]" name="audit_of_Receiving_and_Sending_DocumentsLink" duration-ms="1934" started-at="2019-09-18T11:02:17Z" description="验证：点击&#039;收发文审核&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.document_Receiving_and_Dispatching_Management" finished-at="2019-09-18T11:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- audit_of_Receiving_and_Sending_DocumentsLink -->
+        <test-method status="PASS" signature="document_Supervisory_OfficeLink()[pri:7, instance:com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a]" name="document_Supervisory_OfficeLink" duration-ms="1630" started-at="2019-09-18T11:02:19Z" description="验证：点击&#039;公文督办&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.document_Receiving_and_Dispatching_Management" finished-at="2019-09-18T11:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- document_Supervisory_OfficeLink -->
+        <test-method status="PASS" signature="document_basic_Information_SettingsLink()[pri:7, instance:com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a]" name="document_basic_Information_SettingsLink" duration-ms="1568" started-at="2019-09-18T11:02:21Z" description="验证：点击&#039;基础信息设置&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.document_Receiving_and_Dispatching_Management" finished-at="2019-09-18T11:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- document_basic_Information_SettingsLink -->
+        <test-method status="PASS" signature="draft_manuscriptgLink()[pri:7, instance:com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a]" name="draft_manuscriptgLink" duration-ms="2428" started-at="2019-09-18T11:02:22Z" description="验证：点击&#039;发文拟稿&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.document_Receiving_and_Dispatching_Management" finished-at="2019-09-18T11:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draft_manuscriptgLink -->
+        <test-method status="PASS" signature="my_draftLink()[pri:7, instance:com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a]" name="my_draftLink" duration-ms="1577" started-at="2019-09-18T11:02:25Z" description="验证：点击&#039;我的拟稿&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.document_Receiving_and_Dispatching_Management" finished-at="2019-09-18T11:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- my_draftLink -->
+        <test-method status="PASS" signature="receiving_Papers_to_be_ProcessedLink()[pri:7, instance:com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a]" name="receiving_Papers_to_be_ProcessedLink" duration-ms="1469" started-at="2019-09-18T11:02:26Z" description="验证：点击&#039;收文拟办&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.document_Receiving_and_Dispatching_Management" finished-at="2019-09-18T11:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receiving_Papers_to_be_ProcessedLink -->
+        <test-method status="PASS" signature="view_official_documentsLink()[pri:7, instance:com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a]" name="view_official_documentsLink" duration-ms="1471" started-at="2019-09-18T11:02:28Z" description="验证：点击&#039;查看公文&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.document_Receiving_and_Dispatching_Management" finished-at="2019-09-18T11:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- view_official_documentsLink -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a]" name="afterClass" is-config="true" duration-ms="3154" started-at="2019-09-18T11:02:29Z" finished-at="2019-09-18T11:02:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement -->
+      <class name="com.f.dianqingoa.testcase.Test031_SendNews">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test031_SendNews@7d8995e]" name="beforeClass" is-config="true" duration-ms="7641" started-at="2019-09-18T11:10:05Z" finished-at="2019-09-18T11:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="ReleaseNews()[pri:31, instance:com.f.dianqingoa.testcase.Test031_SendNews@7d8995e]" name="ReleaseNews" duration-ms="20589" started-at="2019-09-18T11:10:13Z" description="发布新闻" finished-at="2019-09-18T11:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReleaseNews -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test031_SendNews@7d8995e]" name="afterClass" is-config="true" duration-ms="3201" started-at="2019-09-18T11:10:33Z" finished-at="2019-09-18T11:10:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test031_SendNews -->
+      <class name="com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638]" name="beforeClass" is-config="true" duration-ms="7959" started-at="2019-09-18T11:00:42Z" finished-at="2019-09-18T11:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="workflow_applicationLink()[pri:3, instance:com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638]" name="workflow_applicationLink" duration-ms="4684" started-at="2019-09-18T11:00:50Z" description="验证：点击&#039;工作流管理&#039;" finished-at="2019-09-18T11:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workflow_applicationLink -->
+        <test-method status="PASS" signature="workflow_management()[pri:3, instance:com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638]" name="workflow_management" duration-ms="1996" started-at="2019-09-18T11:00:55Z" description="验证：展开&#039;工作流管理&#039;" finished-at="2019-09-18T11:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workflow_management -->
+        <test-method status="PASS" signature="my_applicationLink()[pri:3, instance:com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638]" name="my_applicationLink" duration-ms="2744" started-at="2019-09-18T11:00:57Z" description="验证：点击&#039;我的申请&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement.workflow_management" finished-at="2019-09-18T11:00:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- my_applicationLink -->
+        <test-method status="PASS" signature="my_approvalLink()[pri:3, instance:com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638]" name="my_approvalLink" duration-ms="3111" started-at="2019-09-18T11:00:59Z" description="验证：点击&#039;我的审批&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement.workflow_management" finished-at="2019-09-18T11:01:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- my_approvalLink -->
+        <test-method status="PASS" signature="parameter_SettingsLink()[pri:3, instance:com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638]" name="parameter_SettingsLink" duration-ms="1533" started-at="2019-09-18T11:01:03Z" description="验证：点击&#039;参数设置&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement.workflow_management" finished-at="2019-09-18T11:01:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameter_SettingsLink -->
+        <test-method status="PASS" signature="process_managementLink()[pri:3, instance:com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638]" name="process_managementLink" duration-ms="1928" started-at="2019-09-18T11:01:04Z" description="验证：点击&#039;流程管理&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement.workflow_management" finished-at="2019-09-18T11:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- process_managementLink -->
+        <test-method status="PASS" signature="template_managementLink()[pri:3, instance:com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638]" name="template_managementLink" duration-ms="2860" started-at="2019-09-18T11:01:06Z" description="验证：点击&#039;模板管理&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement.workflow_management" finished-at="2019-09-18T11:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- template_managementLink -->
+        <test-method status="PASS" signature="workflow_already_doneLink()[pri:3, instance:com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638]" name="workflow_already_doneLink" duration-ms="3084" started-at="2019-09-18T11:01:09Z" description="验证：点击&#039;已办工作流&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement.workflow_management" finished-at="2019-09-18T11:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workflow_already_doneLink -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638]" name="afterClass" is-config="true" duration-ms="3205" started-at="2019-09-18T11:01:12Z" finished-at="2019-09-18T11:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement -->
+      <class name="com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum@6069db50]" name="beforeClass" is-config="true" duration-ms="7593" started-at="2019-09-18T11:05:25Z" finished-at="2019-09-18T11:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="party_members_world()[pri:16, instance:com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum@6069db50]" name="party_members_world" duration-ms="3081" started-at="2019-09-18T11:05:33Z" description="验证：展开&#039;党员天地&#039;" finished-at="2019-09-18T11:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- party_members_world -->
+        <test-method status="PASS" signature="information_Introduction_of_Party_MembersLink()[pri:16, instance:com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum@6069db50]" name="information_Introduction_of_Party_MembersLink" duration-ms="1769" started-at="2019-09-18T11:05:36Z" description="验证：点击&#039;党员信息介绍&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum.party_members_world" finished-at="2019-09-18T11:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- information_Introduction_of_Party_MembersLink -->
+        <test-method status="PASS" signature="openness_of_Party_Affairs_InformationLink()[pri:16, instance:com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum@6069db50]" name="openness_of_Party_Affairs_InformationLink" duration-ms="1652" started-at="2019-09-18T11:05:38Z" description="验证：点击&#039;党务信息公开&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum.party_members_world" finished-at="2019-09-18T11:05:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openness_of_Party_Affairs_InformationLink -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum@6069db50]" name="afterClass" is-config="true" duration-ms="3203" started-at="2019-09-18T11:05:39Z" finished-at="2019-09-18T11:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum -->
+      <class name="com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement@1623b78d]" name="beforeClass" is-config="true" duration-ms="7497" started-at="2019-09-18T11:04:07Z" finished-at="2019-09-18T11:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="unit_Meeting_Management()[pri:12, instance:com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement@1623b78d]" name="unit_Meeting_Management" duration-ms="3005" started-at="2019-09-18T11:04:15Z" description="验证：展开&#039;单位会议管理&#039;" finished-at="2019-09-18T11:04:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unit_Meeting_Management -->
+        <test-method status="PASS" signature="added_minutes_of_the_meetingLink()[pri:12, instance:com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement@1623b78d]" name="added_minutes_of_the_meetingLink" duration-ms="2123" started-at="2019-09-18T11:04:18Z" description="验证：点击&#039;新增会议纪要&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement.unit_Meeting_Management" finished-at="2019-09-18T11:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- added_minutes_of_the_meetingLink -->
+        <test-method status="PASS" signature="browse_the_minutes_of_the_meetingLink()[pri:12, instance:com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement@1623b78d]" name="browse_the_minutes_of_the_meetingLink" duration-ms="1671" started-at="2019-09-18T11:04:20Z" description="验证：点击&#039;浏览会议纪要&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement.unit_Meeting_Management" finished-at="2019-09-18T11:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse_the_minutes_of_the_meetingLink -->
+        <test-method status="PASS" signature="press_conference_announcementLink()[pri:12, instance:com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement@1623b78d]" name="press_conference_announcementLink" duration-ms="2145" started-at="2019-09-18T11:04:22Z" description="验证：点击&#039;发布会议通知&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement.unit_Meeting_Management" finished-at="2019-09-18T11:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- press_conference_announcementLink -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement@1623b78d]" name="afterClass" is-config="true" duration-ms="3207" started-at="2019-09-18T11:04:24Z" finished-at="2019-09-18T11:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement -->
+      <class name="com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement@1d2adfbe]" name="beforeClass" is-config="true" duration-ms="11961" started-at="2019-09-18T11:00:11Z" finished-at="2019-09-18T11:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="logParameterSetting()[pri:2, instance:com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement@1d2adfbe]" name="logParameterSetting" duration-ms="5962" started-at="2019-09-18T11:00:23Z" description="验证：点击&#039;日志参数设置&#039;" finished-at="2019-09-18T11:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logParameterSetting -->
+        <test-method status="PASS" signature="my_Job_LogEle()[pri:2, instance:com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement@1d2adfbe]" name="my_Job_LogEle" duration-ms="3057" started-at="2019-09-18T11:00:29Z" description="验证：点击&#039;我的工作日志&#039;" finished-at="2019-09-18T11:00:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- my_Job_LogEle -->
+        <test-method status="PASS" signature="otherPeoplesWorkLog()[pri:2, instance:com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement@1d2adfbe]" name="otherPeoplesWorkLog" duration-ms="4972" started-at="2019-09-18T11:00:32Z" description="验证：点击&#039;他人工作日志&#039;" finished-at="2019-09-18T11:00:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherPeoplesWorkLog -->
+        <test-method status="PASS" signature="workLogManagemen(java.lang.String)[pri:2, instance:com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement@1d2adfbe]" name="workLogManagemen" duration-ms="1587" started-at="2019-09-18T11:00:37Z" description="验证：展开&#039;工作日志管理&#039;" data-provider="dp" finished-at="2019-09-18T11:00:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[验证：点击'工作日志管理']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workLogManagemen -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement@1d2adfbe]" name="afterClass" is-config="true" duration-ms="3205" started-at="2019-09-18T11:00:39Z" finished-at="2019-09-18T11:00:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement -->
+      <class name="com.f.dianqingoa.testcase.Test028_WinSidebar_DianqingPMSPortManagementSystem_Experience">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test028_WinSidebar_DianqingPMSPortManagementSystem_Experience@4f83df68]" name="beforeClass" is-config="true" duration-ms="7504" started-at="2019-09-18T11:08:51Z" finished-at="2019-09-18T11:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="winLeft_Port_Management_System()[pri:28, instance:com.f.dianqingoa.testcase.Test028_WinSidebar_DianqingPMSPortManagementSystem_Experience@4f83df68]" name="winLeft_Port_Management_System" duration-ms="4225" started-at="2019-09-18T11:08:59Z" description="悬停&quot;点晴PMS港口管理理系统&quot;" finished-at="2019-09-18T11:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winLeft_Port_Management_System -->
+        <test-method status="PASS" signature="winMain_Experience_Start9()[pri:28, instance:com.f.dianqingoa.testcase.Test028_WinSidebar_DianqingPMSPortManagementSystem_Experience@4f83df68]" name="winMain_Experience_Start9" duration-ms="6532" started-at="2019-09-18T11:09:03Z" description="点击&quot;点晴PMS港口管理系统&quot;页&quot;立即体验&quot;" depends-on-methods="com.f.dianqingoa.testcase.Test028_WinSidebar_DianqingPMSPortManagementSystem_Experience.winLeft_Port_Management_System" finished-at="2019-09-18T11:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winMain_Experience_Start9 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test028_WinSidebar_DianqingPMSPortManagementSystem_Experience@4f83df68]" name="afterClass" is-config="true" duration-ms="3206" started-at="2019-09-18T11:09:10Z" finished-at="2019-09-18T11:09:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test028_WinSidebar_DianqingPMSPortManagementSystem_Experience -->
+      <class name="com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet@4ec4f3a0]" name="beforeClass" is-config="true" duration-ms="7593" started-at="2019-09-18T11:04:45Z" finished-at="2019-09-18T11:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="work_contact_sheet()[pri:14, instance:com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet@4ec4f3a0]" name="work_contact_sheet" duration-ms="3448" started-at="2019-09-18T11:04:53Z" description="验证：展开&#039;工作联络单&#039;" finished-at="2019-09-18T11:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- work_contact_sheet -->
+        <test-method status="PASS" signature="audit_contact_sheetLink()[pri:14, instance:com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet@4ec4f3a0]" name="audit_contact_sheetLink" duration-ms="1479" started-at="2019-09-18T11:04:57Z" description="验证：点击&#039;审核联络单&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet.work_contact_sheet" finished-at="2019-09-18T11:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- audit_contact_sheetLink -->
+        <test-method status="PASS" signature="browse_contact_sheetsLink()[pri:14, instance:com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet@4ec4f3a0]" name="browse_contact_sheetsLink" duration-ms="1698" started-at="2019-09-18T11:04:58Z" description="验证：点击&#039;浏览联络单&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet.work_contact_sheet" finished-at="2019-09-18T11:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse_contact_sheetsLink -->
+        <test-method status="PASS" signature="management_contact_sheetLink()[pri:14, instance:com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet@4ec4f3a0]" name="management_contact_sheetLink" duration-ms="1555" started-at="2019-09-18T11:05:00Z" description="验证：点击&#039;管理联络单&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet.work_contact_sheet" finished-at="2019-09-18T11:05:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- management_contact_sheetLink -->
+        <test-method status="PASS" signature="send_Contact_FormLink()[pri:14, instance:com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet@4ec4f3a0]" name="send_Contact_FormLink" duration-ms="2021" started-at="2019-09-18T11:05:01Z" description="验证：点击&#039;发送联络单&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet.work_contact_sheet" finished-at="2019-09-18T11:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_Contact_FormLink -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet@4ec4f3a0]" name="afterClass" is-config="true" duration-ms="3193" started-at="2019-09-18T11:05:03Z" finished-at="2019-09-18T11:05:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet -->
+      <class name="com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience@1b7cc17c]" name="beforeClass" is-config="true" duration-ms="7760" started-at="2019-09-18T11:06:10Z" finished-at="2019-09-18T11:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="dianqings_Way_of_Management()[pri:20, instance:com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience@1b7cc17c]" name="dianqings_Way_of_Management" duration-ms="3820" started-at="2019-09-18T11:06:18Z" description="验证：点击&quot;点睛管理之道&quot;" finished-at="2019-09-18T11:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dianqings_Way_of_Management -->
+        <test-method status="PASS" signature="winLeft_MIS_Information_Communication()[pri:20, instance:com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience@1b7cc17c]" name="winLeft_MIS_Information_Communication" duration-ms="256" started-at="2019-09-18T11:06:22Z" description="验证：悬停&quot;点晴MIS信息通（IM）&quot;" depends-on-methods="com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience.dianqings_Way_of_Management" finished-at="2019-09-18T11:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winLeft_MIS_Information_Communication -->
+        <test-method status="PASS" signature="winMain_Experience_Start1()[pri:20, instance:com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience@1b7cc17c]" name="winMain_Experience_Start1" duration-ms="1393" started-at="2019-09-18T11:06:22Z" description="验证：点击&quot;点晴MIS信息通（IM）&quot;页&quot;立即体验&quot;" depends-on-methods="com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience.winLeft_MIS_Information_Communication" finished-at="2019-09-18T11:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winMain_Experience_Start1 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience@1b7cc17c]" name="afterClass" is-config="true" duration-ms="3224" started-at="2019-09-18T11:06:24Z" finished-at="2019-09-18T11:06:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience -->
+      <class name="com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement@6adbc9d]" name="beforeClass" is-config="true" duration-ms="8201" started-at="2019-09-18T11:04:27Z" finished-at="2019-09-18T11:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="unit_News_Management()[pri:13, instance:com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement@6adbc9d]" name="unit_News_Management" duration-ms="3032" started-at="2019-09-18T11:04:35Z" description="验证：展开&#039;单位新闻管理&#039;" finished-at="2019-09-18T11:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unit_News_Management -->
+        <test-method status="PASS" signature="browse_the_newsLink()[pri:13, instance:com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement@6adbc9d]" name="browse_the_newsLink" duration-ms="1977" started-at="2019-09-18T11:04:38Z" description="验证：点击&#039;浏览新闻&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement.unit_News_Management" finished-at="2019-09-18T11:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse_the_newsLink -->
+        <test-method status="PASS" signature="publish_newsLink()[pri:13, instance:com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement@6adbc9d]" name="publish_newsLink" duration-ms="2139" started-at="2019-09-18T11:04:40Z" description="验证：点击&#039;发布新闻&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement.unit_News_Management" finished-at="2019-09-18T11:04:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publish_newsLink -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement@6adbc9d]" name="afterClass" is-config="true" duration-ms="3175" started-at="2019-09-18T11:04:42Z" finished-at="2019-09-18T11:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement -->
+      <class name="com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook@3febb011]" name="beforeClass" is-config="true" duration-ms="8959" started-at="2019-09-18T11:01:42Z" finished-at="2019-09-18T11:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="my_address_book()[pri:5, instance:com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook@3febb011]" name="my_address_book" duration-ms="3360" started-at="2019-09-18T11:01:51Z" description="验证：展开&#039;我的通讯录&#039;" finished-at="2019-09-18T11:01:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- my_address_book -->
+        <test-method status="PASS" signature="external_Address_BookLink()[pri:5, instance:com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook@3febb011]" name="external_Address_BookLink" duration-ms="1687" started-at="2019-09-18T11:01:55Z" description="验证：点击&#039;外部通讯录&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook.my_address_book" finished-at="2019-09-18T11:01:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- external_Address_BookLink -->
+        <test-method status="PASS" signature="personal_Address_BookLink()[pri:5, instance:com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook@3febb011]" name="personal_Address_BookLink" duration-ms="1889" started-at="2019-09-18T11:01:56Z" description="验证：点击&#039;个人通讯录&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook.my_address_book" finished-at="2019-09-18T11:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal_Address_BookLink -->
+        <test-method status="PASS" signature="personal_Data_MaintenanceLink()[pri:5, instance:com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook@3febb011]" name="personal_Data_MaintenanceLink" duration-ms="1756" started-at="2019-09-18T11:01:58Z" description="验证：点击&#039;个人资料维护&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook.my_address_book" finished-at="2019-09-18T11:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal_Data_MaintenanceLink -->
+        <test-method status="PASS" signature="unit_Address_BookLink()[pri:5, instance:com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook@3febb011]" name="unit_Address_BookLink" duration-ms="1507" started-at="2019-09-18T11:02:00Z" description="验证：点击&#039;单位通讯录&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook.my_address_book" finished-at="2019-09-18T11:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unit_Address_BookLink -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook@3febb011]" name="afterClass" is-config="true" duration-ms="3173" started-at="2019-09-18T11:02:02Z" finished-at="2019-09-18T11:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook -->
+      <class name="com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement@77847718]" name="beforeClass" is-config="true" duration-ms="7828" started-at="2019-09-18T11:02:50Z" finished-at="2019-09-18T11:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="work_plan_management()[pri:9, instance:com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement@77847718]" name="work_plan_management" duration-ms="3475" started-at="2019-09-18T11:02:58Z" description="验证：展开&#039;工作计划管理&#039;" finished-at="2019-09-18T11:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- work_plan_management -->
+        <test-method status="PASS" signature="arrange_a_new_work_planLink()[pri:9, instance:com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement@77847718]" name="arrange_a_new_work_planLink" duration-ms="3291" started-at="2019-09-18T11:03:01Z" description="验证：点击&#039;安排新的工作计划&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement.work_plan_management" finished-at="2019-09-18T11:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arrange_a_new_work_planLink -->
+        <test-method status="PASS" signature="browse_through_existing_work_plansLink()[pri:9, instance:com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement@77847718]" name="browse_through_existing_work_plansLink" duration-ms="2551" started-at="2019-09-18T11:03:04Z" description="验证：点击&#039;浏览现有工作计划&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement.work_plan_management" finished-at="2019-09-18T11:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse_through_existing_work_plansLink -->
+        <test-method status="PASS" signature="maintenance_of_Work_Plan_CategoryLink()[pri:9, instance:com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement@77847718]" name="maintenance_of_Work_Plan_CategoryLink" duration-ms="1563" started-at="2019-09-18T11:03:07Z" description="验证：点击&#039;工作计划类别维护&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement.work_plan_management" finished-at="2019-09-18T11:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maintenance_of_Work_Plan_CategoryLink -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement@77847718]" name="afterClass" is-config="true" duration-ms="3210" started-at="2019-09-18T11:03:09Z" finished-at="2019-09-18T11:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement -->
+      <class name="com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement@158d2680]" name="beforeClass" is-config="true" duration-ms="7503" started-at="2019-09-18T11:02:32Z" finished-at="2019-09-18T11:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="work_report_management()[pri:8, instance:com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement@158d2680]" name="work_report_management" duration-ms="2880" started-at="2019-09-18T11:02:40Z" description="验证：展开&#039;工作报告管理&#039;" finished-at="2019-09-18T11:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- work_report_management -->
+        <test-method status="PASS" signature="arrangement_of_work_reportsLink()[pri:8, instance:com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement@158d2680]" name="arrangement_of_work_reportsLink" duration-ms="2356" started-at="2019-09-18T11:02:43Z" description="验证：点击&#039;安排工作报告&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement.work_report_management" finished-at="2019-09-18T11:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arrangement_of_work_reportsLink -->
+        <test-method status="PASS" signature="work_report_trackingLink()[pri:8, instance:com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement@158d2680]" name="work_report_trackingLink" duration-ms="1500" started-at="2019-09-18T11:02:45Z" description="验证：点击&#039;工作报告管理&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement.work_report_management" finished-at="2019-09-18T11:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- work_report_trackingLink -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement@158d2680]" name="afterClass" is-config="true" duration-ms="3233" started-at="2019-09-18T11:02:47Z" finished-at="2019-09-18T11:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement -->
+      <class name="com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen@74fe5c40]" name="beforeClass" is-config="true" duration-ms="7579" started-at="2019-09-18T11:01:15Z" finished-at="2019-09-18T11:01:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="notification_and_Announcement_Management()[pri:4, instance:com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen@74fe5c40]" name="notification_and_Announcement_Management" duration-ms="4038" started-at="2019-09-18T11:01:23Z" description="验证：展开&#039;通知公告管理&#039;" finished-at="2019-09-18T11:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notification_and_Announcement_Management -->
+        <test-method status="PASS" signature="announcement_of_Notification()[pri:4, instance:com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen@74fe5c40]" name="announcement_of_Notification" duration-ms="3270" started-at="2019-09-18T11:01:27Z" description="验证：点击&#039;发布通知公告&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen.notification_and_Announcement_Management" finished-at="2019-09-18T11:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- announcement_of_Notification -->
+        <test-method status="PASS" signature="browse_Notice_Bulletin()[pri:4, instance:com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen@74fe5c40]" name="browse_Notice_Bulletin" duration-ms="2970" started-at="2019-09-18T11:01:30Z" description="验证：点击&#039;浏览通知公告&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen.notification_and_Announcement_Management" finished-at="2019-09-18T11:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse_Notice_Bulletin -->
+        <test-method status="PASS" signature="management_of_Sign_and_Receive_Records()[pri:4, instance:com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen@74fe5c40]" name="management_of_Sign_and_Receive_Records" duration-ms="3095" started-at="2019-09-18T11:01:33Z" description="验证：点击&#039;签收记录管理&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen.notification_and_Announcement_Management" finished-at="2019-09-18T11:01:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- management_of_Sign_and_Receive_Records -->
+        <test-method status="PASS" signature="notice_basic_Information_Settings()[pri:4, instance:com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen@74fe5c40]" name="notice_basic_Information_Settings" duration-ms="2937" started-at="2019-09-18T11:01:36Z" description="验证：点击&#039;基础信息设置&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen.notification_and_Announcement_Management" finished-at="2019-09-18T11:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notice_basic_Information_Settings -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen@74fe5c40]" name="afterClass" is-config="true" duration-ms="3191" started-at="2019-09-18T11:01:39Z" finished-at="2019-09-18T11:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen -->
+      <class name="com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement@7f0eb4b4]" name="beforeClass" is-config="true" duration-ms="7525" started-at="2019-09-18T11:03:47Z" finished-at="2019-09-18T11:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="project_tracking_management()[pri:11, instance:com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement@7f0eb4b4]" name="project_tracking_management" duration-ms="3028" started-at="2019-09-18T11:03:54Z" description="验证：展开&#039;项目跟踪管理&#039;" finished-at="2019-09-18T11:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- project_tracking_management -->
+        <test-method status="PASS" signature="additional_projectsLink()[pri:11, instance:com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement@7f0eb4b4]" name="additional_projectsLink" duration-ms="1974" started-at="2019-09-18T11:03:57Z" description="验证：点击&#039;增加项目&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement.project_tracking_management" finished-at="2019-09-18T11:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additional_projectsLink -->
+        <test-method status="PASS" signature="maintenance_of_Project_Progress_NameLink()[pri:11, instance:com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement@7f0eb4b4]" name="maintenance_of_Project_Progress_NameLink" duration-ms="1573" started-at="2019-09-18T11:03:59Z" description="验证：点击&#039;项目进度名称维护&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement.project_tracking_management" finished-at="2019-09-18T11:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maintenance_of_Project_Progress_NameLink -->
+        <test-method status="PASS" signature="periodic_project_trackingLink()[pri:11, instance:com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement@7f0eb4b4]" name="periodic_project_trackingLink" duration-ms="1655" started-at="2019-09-18T11:04:01Z" description="验证：点击&#039;周期性项目跟踪&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement.project_tracking_management" finished-at="2019-09-18T11:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- periodic_project_trackingLink -->
+        <test-method status="PASS" signature="project_Category_Name_MaintenanceLink()[pri:11, instance:com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement@7f0eb4b4]" name="project_Category_Name_MaintenanceLink" duration-ms="1506" started-at="2019-09-18T11:04:03Z" description="验证：点击&#039;项目类别名称维护&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement.project_tracking_management" finished-at="2019-09-18T11:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- project_Category_Name_MaintenanceLink -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement@7f0eb4b4]" name="afterClass" is-config="true" duration-ms="3185" started-at="2019-09-18T11:04:04Z" finished-at="2019-09-18T11:04:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement -->
+      <class name="com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld@49139829]" name="beforeClass" is-config="true" duration-ms="7872" started-at="2019-09-18T11:05:07Z" finished-at="2019-09-18T11:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="personal_Memorandum()[pri:15, instance:com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld@49139829]" name="personal_Memorandum" duration-ms="3002" started-at="2019-09-18T11:05:14Z" description="展开：点击&#039;个人备忘录&#039;" finished-at="2019-09-18T11:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal_Memorandum -->
+        <test-method status="PASS" signature="additional_memorandumLink()[pri:15, instance:com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld@49139829]" name="additional_memorandumLink" duration-ms="3116" started-at="2019-09-18T11:05:17Z" description="验证：点击&#039;增加备忘录&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld.personal_Memorandum" finished-at="2019-09-18T11:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additional_memorandumLink -->
+        <test-method status="PASS" signature="browse_the_MemorandumLink()[pri:15, instance:com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld@49139829]" name="browse_the_MemorandumLink" duration-ms="1391" started-at="2019-09-18T11:05:21Z" description="验证：点击&#039;浏览备忘录&#039;" depends-on-methods="com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld.personal_Memorandum" finished-at="2019-09-18T11:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse_the_MemorandumLink -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld@49139829]" name="afterClass" is-config="true" duration-ms="3210" started-at="2019-09-18T11:05:22Z" finished-at="2019-09-18T11:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld -->
+      <class name="com.f.dianqingoa.testcase.Test026_WinSidebar_DianqingEBRBudgetReimbursementSystem_Experience">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test026_WinSidebar_DianqingEBRBudgetReimbursementSystem_Experience@35e2d654]" name="beforeClass" is-config="true" duration-ms="7583" started-at="2019-09-18T11:08:14Z" finished-at="2019-09-18T11:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="winLeft_Budget_reimbursement_system()[pri:26, instance:com.f.dianqingoa.testcase.Test026_WinSidebar_DianqingEBRBudgetReimbursementSystem_Experience@35e2d654]" name="winLeft_Budget_reimbursement_system" duration-ms="3976" started-at="2019-09-18T11:08:21Z" description="悬停&quot;点晴EBR预算报销系统&quot;" finished-at="2019-09-18T11:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winLeft_Budget_reimbursement_system -->
+        <test-method status="PASS" signature="winMain_Experience_Start7()[pri:26, instance:com.f.dianqingoa.testcase.Test026_WinSidebar_DianqingEBRBudgetReimbursementSystem_Experience@35e2d654]" name="winMain_Experience_Start7" duration-ms="4877" started-at="2019-09-18T11:08:25Z" description="点击&quot;点晴EBR预算报销系统&quot;页&quot;立即体验&quot;" depends-on-methods="com.f.dianqingoa.testcase.Test026_WinSidebar_DianqingEBRBudgetReimbursementSystem_Experience.winLeft_Budget_reimbursement_system" finished-at="2019-09-18T11:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winMain_Experience_Start7 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test026_WinSidebar_DianqingEBRBudgetReimbursementSystem_Experience@35e2d654]" name="afterClass" is-config="true" duration-ms="3188" started-at="2019-09-18T11:08:30Z" finished-at="2019-09-18T11:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test026_WinSidebar_DianqingEBRBudgetReimbursementSystem_Experience -->
+      <class name="com.f.dianqingoa.testcase.Test027_WinSidebar_DianqingInetIntranetCommunicationScheme_Experience">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test027_WinSidebar_DianqingInetIntranetCommunicationScheme_Experience@1bd4fdd]" name="beforeClass" is-config="true" duration-ms="7538" started-at="2019-09-18T11:08:33Z" finished-at="2019-09-18T11:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="winLeft_Intranet_Communication_Scheme()[pri:27, instance:com.f.dianqingoa.testcase.Test027_WinSidebar_DianqingInetIntranetCommunicationScheme_Experience@1bd4fdd]" name="winLeft_Intranet_Communication_Scheme" duration-ms="4814" started-at="2019-09-18T11:08:41Z" description="悬停&quot;点晴Inet内网通方案&quot;" finished-at="2019-09-18T11:08:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winLeft_Intranet_Communication_Scheme -->
+        <test-method status="PASS" signature="winMain_Experience_Start8()[pri:27, instance:com.f.dianqingoa.testcase.Test027_WinSidebar_DianqingInetIntranetCommunicationScheme_Experience@1bd4fdd]" name="winMain_Experience_Start8" duration-ms="2461" started-at="2019-09-18T11:08:46Z" description="点击&quot;点晴Inet内网通方案&quot;页&quot;立即体验&quot;" depends-on-methods="com.f.dianqingoa.testcase.Test027_WinSidebar_DianqingInetIntranetCommunicationScheme_Experience.winLeft_Intranet_Communication_Scheme" finished-at="2019-09-18T11:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winMain_Experience_Start8 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test027_WinSidebar_DianqingInetIntranetCommunicationScheme_Experience@1bd4fdd]" name="afterClass" is-config="true" duration-ms="3195" started-at="2019-09-18T11:08:48Z" finished-at="2019-09-18T11:08:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test027_WinSidebar_DianqingInetIntranetCommunicationScheme_Experience -->
+      <class name="com.f.dianqingoa.testcase.Test021_WinSidebar_DianqingInvoicingManagementSystem_Experience">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test021_WinSidebar_DianqingInvoicingManagementSystem_Experience@77fbd92c]" name="beforeClass" is-config="true" duration-ms="7520" started-at="2019-09-18T11:06:27Z" finished-at="2019-09-18T11:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="winLeft_Invoicing_management_system()[pri:21, instance:com.f.dianqingoa.testcase.Test021_WinSidebar_DianqingInvoicingManagementSystem_Experience@77fbd92c]" name="winLeft_Invoicing_management_system" duration-ms="3692" started-at="2019-09-18T11:06:34Z" description="悬停&quot;点晴进销存管理系统&quot;" finished-at="2019-09-18T11:06:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winLeft_Invoicing_management_system -->
+        <test-method status="PASS" signature="winMain_Experience_Start2()[pri:21, instance:com.f.dianqingoa.testcase.Test021_WinSidebar_DianqingInvoicingManagementSystem_Experience@77fbd92c]" name="winMain_Experience_Start2" duration-ms="6509" started-at="2019-09-18T11:06:38Z" description="点击&quot;点晴进销存管理系统&quot;页&quot;立即体验&quot;" depends-on-methods="com.f.dianqingoa.testcase.Test021_WinSidebar_DianqingInvoicingManagementSystem_Experience.winLeft_Invoicing_management_system" finished-at="2019-09-18T11:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winMain_Experience_Start2 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test021_WinSidebar_DianqingInvoicingManagementSystem_Experience@77fbd92c]" name="afterClass" is-config="true" duration-ms="3204" started-at="2019-09-18T11:06:45Z" finished-at="2019-09-18T11:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test021_WinSidebar_DianqingInvoicingManagementSystem_Experience -->
+      <class name="com.f.dianqingoa.testcase.Test029_WinSidebar_DianqingERPEnterpriseManagementSystem_Experience">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.f.dianqingoa.testcase.Test029_WinSidebar_DianqingERPEnterpriseManagementSystem_Experience@55183b20]" name="beforeClass" is-config="true" duration-ms="7191" started-at="2019-09-18T11:09:13Z" finished-at="2019-09-18T11:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="winLeft_Enterprise_Management_System()[pri:29, instance:com.f.dianqingoa.testcase.Test029_WinSidebar_DianqingERPEnterpriseManagementSystem_Experience@55183b20]" name="winLeft_Enterprise_Management_System" duration-ms="5022" started-at="2019-09-18T11:09:20Z" description="鼠标悬停&quot;点晴ERP企业管理系统&quot;" finished-at="2019-09-18T11:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winLeft_Enterprise_Management_System -->
+        <test-method status="PASS" signature="winMain_Experience_Start10()[pri:29, instance:com.f.dianqingoa.testcase.Test029_WinSidebar_DianqingERPEnterpriseManagementSystem_Experience@55183b20]" name="winMain_Experience_Start10" duration-ms="14137" started-at="2019-09-18T11:09:25Z" description="点击&quot;点晴ERP企业管理系统&quot;页&quot;立即体验&quot;" depends-on-methods="com.f.dianqingoa.testcase.Test029_WinSidebar_DianqingERPEnterpriseManagementSystem_Experience.winLeft_Enterprise_Management_System" finished-at="2019-09-18T11:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- winMain_Experience_Start10 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.f.dianqingoa.testcase.Test029_WinSidebar_DianqingERPEnterpriseManagementSystem_Experience@55183b20]" name="afterClass" is-config="true" duration-ms="3169" started-at="2019-09-18T11:09:39Z" finished-at="2019-09-18T11:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.f.dianqingoa.testcase.Test029_WinSidebar_DianqingERPEnterpriseManagementSystem_Experience -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

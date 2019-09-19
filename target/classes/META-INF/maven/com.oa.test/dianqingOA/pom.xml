@@ -351,7 +351,7 @@
 
 	<!-- 添加 build 元素,指定项目以什么样的方式去构建 -->
 	<build>
-		<finalName>OAandMuke</finalName>
+		<finalName>dianqingOA</finalName>
 		<plugins>
 			<!-- 资源配置插件：不配置就默认,设置xml、properties资源文件的编码格式 -->
 			<plugin>

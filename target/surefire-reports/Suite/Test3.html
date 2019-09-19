@@ -1,0 +1,529 @@
+<html>
+<head>
+<title>TestNG:  Test3</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test3</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>90/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 18 18:59:59 CST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>637 seconds (637704 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test018_Sidebar_MISInformationCommunication.MIS_Information_Communication()'><b>MIS_Information_Communication</b><br>Test class: com.f.dianqingoa.testcase.Test018_Sidebar_MISInformationCommunication<br>Test method: 验证：点击'MIS信息通'</td>
+<td></td>
+<td>17</td>
+<td>com.f.dianqingoa.testcase.Test018_Sidebar_MISInformationCommunication@4efbca5a</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test031_SendNews.ReleaseNews()'><b>ReleaseNews</b><br>Test class: com.f.dianqingoa.testcase.Test031_SendNews<br>Test method: 发布新闻</td>
+<td></td>
+<td>20</td>
+<td>com.f.dianqingoa.testcase.Test031_SendNews@7d8995e</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.acceptanceLink()'><b>acceptanceLink</b><br>Test class: com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement<br>Test method: 验证：点击'收文承办'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement.added_minutes_of_the_meetingLink()'><b>added_minutes_of_the_meetingLink</b><br>Test class: com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement<br>Test method: 验证：点击'新增会议纪要'</td>
+<td></td>
+<td>2</td>
+<td>com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement@1623b78d</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld.additional_memorandumLink()'><b>additional_memorandumLink</b><br>Test class: com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld<br>Test method: 验证：点击'增加备忘录'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld@49139829</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement.additional_projectsLink()'><b>additional_projectsLink</b><br>Test class: com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement<br>Test method: 验证：点击'增加项目'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement@7f0eb4b4</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen.announcement_of_Notification()'><b>announcement_of_Notification</b><br>Test class: com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen<br>Test method: 验证：点击'发布通知公告'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen@74fe5c40</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement.arrange_a_new_work_planLink()'><b>arrange_a_new_work_planLink</b><br>Test class: com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement<br>Test method: 验证：点击'安排新的工作计划'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement@77847718</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement.arrangement_of_work_reportsLink()'><b>arrangement_of_work_reportsLink</b><br>Test class: com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement<br>Test method: 验证：点击'安排工作报告'</td>
+<td></td>
+<td>2</td>
+<td>com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement@158d2680</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet.audit_contact_sheetLink()'><b>audit_contact_sheetLink</b><br>Test class: com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet<br>Test method: 验证：点击'审核联络单'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet@4ec4f3a0</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.audit_of_Receiving_and_Sending_DocumentsLink()'><b>audit_of_Receiving_and_Sending_DocumentsLink</b><br>Test class: com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement<br>Test method: 验证：点击'收发文审核'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen.browse_Notice_Bulletin()'><b>browse_Notice_Bulletin</b><br>Test class: com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen<br>Test method: 验证：点击'浏览通知公告'</td>
+<td></td>
+<td>2</td>
+<td>com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen@74fe5c40</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet.browse_contact_sheetsLink()'><b>browse_contact_sheetsLink</b><br>Test class: com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet<br>Test method: 验证：点击'浏览联络单'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet@4ec4f3a0</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld.browse_the_MemorandumLink()'><b>browse_the_MemorandumLink</b><br>Test class: com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld<br>Test method: 验证：点击'浏览备忘录'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld@49139829</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement.browse_the_minutes_of_the_meetingLink()'><b>browse_the_minutes_of_the_meetingLink</b><br>Test class: com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement<br>Test method: 验证：点击'浏览会议纪要'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement@1623b78d</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement.browse_the_newsLink()'><b>browse_the_newsLink</b><br>Test class: com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement<br>Test method: 验证：点击'浏览新闻'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement@6adbc9d</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement.browse_through_existing_work_plansLink()'><b>browse_through_existing_work_plansLink</b><br>Test class: com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement<br>Test method: 验证：点击'浏览现有工作计划'</td>
+<td></td>
+<td>2</td>
+<td>com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement@77847718</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience.dianqings_Way_of_Management()'><b>dianqings_Way_of_Management</b><br>Test class: com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience<br>Test method: 验证：点击"点睛管理之道"</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience@1b7cc17c</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.document_Receiving_and_Dispatching_Management()'><b>document_Receiving_and_Dispatching_Management</b><br>Test class: com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement<br>Test method: 验证：展开'公文收发管理'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.document_Supervisory_OfficeLink()'><b>document_Supervisory_OfficeLink</b><br>Test class: com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement<br>Test method: 验证：点击'公文督办'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.document_basic_Information_SettingsLink()'><b>document_basic_Information_SettingsLink</b><br>Test class: com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement<br>Test method: 验证：点击'基础信息设置'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.draft_manuscriptgLink()'><b>draft_manuscriptgLink</b><br>Test class: com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement<br>Test method: 验证：点击'发文拟稿'</td>
+<td></td>
+<td>2</td>
+<td>com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook.external_Address_BookLink()'><b>external_Address_BookLink</b><br>Test class: com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook<br>Test method: 验证：点击'外部通讯录'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook@3febb011</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement.i_want_to_submit_a_proposalLink()'><b>i_want_to_submit_a_proposalLink</b><br>Test class: com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement<br>Test method: 验证：点击'我要提交提案'</td>
+<td></td>
+<td>2</td>
+<td>com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement@57a3af25</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement.improving_Proposal_Management()'><b>improving_Proposal_Management</b><br>Test class: com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement<br>Test method: 验证：展开'改善提案管理'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement@57a3af25</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum.information_Introduction_of_Party_MembersLink()'><b>information_Introduction_of_Party_MembersLink</b><br>Test class: com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum<br>Test method: 验证：点击'党员信息介绍'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum@6069db50</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement.logParameterSetting()'><b>logParameterSetting</b><br>Test class: com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement<br>Test method: 验证：点击'日志参数设置'</td>
+<td></td>
+<td>5</td>
+<td>com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement@1d2adfbe</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement.maintenance_of_Project_Progress_NameLink()'><b>maintenance_of_Project_Progress_NameLink</b><br>Test class: com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement<br>Test method: 验证：点击'项目进度名称维护'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement@7f0eb4b4</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement.maintenance_of_Work_Plan_CategoryLink()'><b>maintenance_of_Work_Plan_CategoryLink</b><br>Test class: com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement<br>Test method: 验证：点击'工作计划类别维护'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement@77847718</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet.management_contact_sheetLink()'><b>management_contact_sheetLink</b><br>Test class: com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet<br>Test method: 验证：点击'管理联络单'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet@4ec4f3a0</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen.management_of_Sign_and_Receive_Records()'><b>management_of_Sign_and_Receive_Records</b><br>Test class: com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen<br>Test method: 验证：点击'签收记录管理'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen@74fe5c40</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement.my_Job_LogEle()'><b>my_Job_LogEle</b><br>Test class: com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement<br>Test method: 验证：点击'我的工作日志'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement@1d2adfbe</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook.my_address_book()'><b>my_address_book</b><br>Test class: com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook<br>Test method: 验证：展开'我的通讯录'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook@3febb011</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement.my_applicationLink()'><b>my_applicationLink</b><br>Test class: com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement<br>Test method: 验证：点击'我的申请'</td>
+<td></td>
+<td>2</td>
+<td>com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement.my_approvalLink()'><b>my_approvalLink</b><br>Test class: com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement<br>Test method: 验证：点击'我的审批'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.my_draftLink()'><b>my_draftLink</b><br>Test class: com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement<br>Test method: 验证：点击'我的拟稿'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen.notice_basic_Information_Settings()'><b>notice_basic_Information_Settings</b><br>Test class: com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen<br>Test method: 验证：点击'基础信息设置'</td>
+<td></td>
+<td>2</td>
+<td>com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen@74fe5c40</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen.notification_and_Announcement_Management()'><b>notification_and_Announcement_Management</b><br>Test class: com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen<br>Test method: 验证：展开'通知公告管理'</td>
+<td></td>
+<td>4</td>
+<td>com.f.dianqingoa.testcase.Test004_Sidebar_NotificationAndAnnouncementManagemen@74fe5c40</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test001_OnlineExperience.onlineExperience()'><b>onlineExperience</b><br>Test class: com.f.dianqingoa.testcase.Test001_OnlineExperience<br>Test method: 验证：官网页面点击'在线体验'跳转至OA首页</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test001_OnlineExperience@49ec71f8</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum.openness_of_Party_Affairs_InformationLink()'><b>openness_of_Party_Affairs_InformationLink</b><br>Test class: com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum<br>Test method: 验证：点击'党务信息公开'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum@6069db50</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement.otherPeoplesWorkLog()'><b>otherPeoplesWorkLog</b><br>Test class: com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement<br>Test method: 验证：点击'他人工作日志'</td>
+<td></td>
+<td>4</td>
+<td>com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement@1d2adfbe</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement.parameter_SettingsLink()'><b>parameter_SettingsLink</b><br>Test class: com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement<br>Test method: 验证：点击'参数设置'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum.party_members_world()'><b>party_members_world</b><br>Test class: com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum<br>Test method: 验证：展开'党员天地'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test016_Sidebar_PersonalMemorandum@6069db50</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement.periodic_project_trackingLink()'><b>periodic_project_trackingLink</b><br>Test class: com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement<br>Test method: 验证：点击'周期性项目跟踪'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement@7f0eb4b4</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook.personal_Address_BookLink()'><b>personal_Address_BookLink</b><br>Test class: com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook<br>Test method: 验证：点击'个人通讯录'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook@3febb011</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook.personal_Data_MaintenanceLink()'><b>personal_Data_MaintenanceLink</b><br>Test class: com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook<br>Test method: 验证：点击'个人资料维护'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook@3febb011</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld.personal_Memorandum()'><b>personal_Memorandum</b><br>Test class: com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld<br>Test method: 展开：点击'个人备忘录'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test015_Sidebar_PartyMembersWorld@49139829</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement.press_conference_announcementLink()'><b>press_conference_announcementLink</b><br>Test class: com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement<br>Test method: 验证：点击'发布会议通知'</td>
+<td></td>
+<td>2</td>
+<td>com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement@1623b78d</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement.process_managementLink()'><b>process_managementLink</b><br>Test class: com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement<br>Test method: 验证：点击'流程管理'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement.project_Category_Name_MaintenanceLink()'><b>project_Category_Name_MaintenanceLink</b><br>Test class: com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement<br>Test method: 验证：点击'项目类别名称维护'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement@7f0eb4b4</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement.project_tracking_management()'><b>project_tracking_management</b><br>Test class: com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement<br>Test method: 验证：展开'项目跟踪管理'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test011_Sidebar_ProjectTrackingManagement@7f0eb4b4</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement.proposal_Browsing_and_FeedbackLink()'><b>proposal_Browsing_and_FeedbackLink</b><br>Test class: com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement<br>Test method: 验证：点击'提案浏览及反馈'</td>
+<td></td>
+<td>2</td>
+<td>com.f.dianqingoa.testcase.Test010_Sidebar_ImprovingProposalManagement@57a3af25</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement.publish_newsLink()'><b>publish_newsLink</b><br>Test class: com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement<br>Test method: 验证：点击'发布新闻'</td>
+<td></td>
+<td>2</td>
+<td>com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement@6adbc9d</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.receiving_Papers_to_be_ProcessedLink()'><b>receiving_Papers_to_be_ProcessedLink</b><br>Test class: com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement<br>Test method: 验证：点击'收文拟办'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet.send_Contact_FormLink()'><b>send_Contact_FormLink</b><br>Test class: com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet<br>Test method: 验证：点击'发送联络单'</td>
+<td></td>
+<td>2</td>
+<td>com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet@4ec4f3a0</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement.template_managementLink()'><b>template_managementLink</b><br>Test class: com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement<br>Test method: 验证：点击'模板管理'</td>
+<td></td>
+<td>2</td>
+<td>com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook.unit_Address_BookLink()'><b>unit_Address_BookLink</b><br>Test class: com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook<br>Test method: 验证：点击'单位通讯录'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test005_Sidebar_MyAddressBook@3febb011</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement.unit_Meeting_Management()'><b>unit_Meeting_Management</b><br>Test class: com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement<br>Test method: 验证：展开'单位会议管理'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test012_Sidebar_UnitMeetingManagement@1623b78d</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement.unit_News_Management()'><b>unit_News_Management</b><br>Test class: com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement<br>Test method: 验证：展开'单位新闻管理'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test013_Sidebar_UnitNewsManagement@6adbc9d</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement.view_official_documentsLink()'><b>view_official_documentsLink</b><br>Test class: com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement<br>Test method: 验证：点击'查看公文'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test007_Sidebar_DocumentReceivingAndDispatchingManagement@10e31a9a</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test026_WinSidebar_DianqingEBRBudgetReimbursementSystem_Experience.winLeft_Budget_reimbursement_system()'><b>winLeft_Budget_reimbursement_system</b><br>Test class: com.f.dianqingoa.testcase.Test026_WinSidebar_DianqingEBRBudgetReimbursementSystem_Experience<br>Test method: 悬停"点晴EBR预算报销系统"</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test026_WinSidebar_DianqingEBRBudgetReimbursementSystem_Experience@35e2d654</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test022_WinSidebar_DianqingCRMCustomerManagementSystem_Experience.winLeft_Customer_Management_System()'><b>winLeft_Customer_Management_System</b><br>Test class: com.f.dianqingoa.testcase.Test022_WinSidebar_DianqingCRMCustomerManagementSystem_Experience<br>Test method: 悬停"点晴CRM客户管理系统"</td>
+<td></td>
+<td>4</td>
+<td>com.f.dianqingoa.testcase.Test022_WinSidebar_DianqingCRMCustomerManagementSystem_Experience@1a482e36</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test030_WinSidebar_DianqingDiecuttingERPManagementSystem_Experience.winLeft_Die_cutting_ERP_Management_System()'><b>winLeft_Die_cutting_ERP_Management_System</b><br>Test class: com.f.dianqingoa.testcase.Test030_WinSidebar_DianqingDiecuttingERPManagementSystem_Experience<br>Test method: 鼠标悬停'点晴模切ERP管理系统'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test030_WinSidebar_DianqingDiecuttingERPManagementSystem_Experience@6cf0e0ba</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test029_WinSidebar_DianqingERPEnterpriseManagementSystem_Experience.winLeft_Enterprise_Management_System()'><b>winLeft_Enterprise_Management_System</b><br>Test class: com.f.dianqingoa.testcase.Test029_WinSidebar_DianqingERPEnterpriseManagementSystem_Experience<br>Test method: 鼠标悬停"点晴ERP企业管理系统"</td>
+<td></td>
+<td>5</td>
+<td>com.f.dianqingoa.testcase.Test029_WinSidebar_DianqingERPEnterpriseManagementSystem_Experience@55183b20</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test027_WinSidebar_DianqingInetIntranetCommunicationScheme_Experience.winLeft_Intranet_Communication_Scheme()'><b>winLeft_Intranet_Communication_Scheme</b><br>Test class: com.f.dianqingoa.testcase.Test027_WinSidebar_DianqingInetIntranetCommunicationScheme_Experience<br>Test method: 悬停"点晴Inet内网通方案"</td>
+<td></td>
+<td>4</td>
+<td>com.f.dianqingoa.testcase.Test027_WinSidebar_DianqingInetIntranetCommunicationScheme_Experience@1bd4fdd</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test021_WinSidebar_DianqingInvoicingManagementSystem_Experience.winLeft_Invoicing_management_system()'><b>winLeft_Invoicing_management_system</b><br>Test class: com.f.dianqingoa.testcase.Test021_WinSidebar_DianqingInvoicingManagementSystem_Experience<br>Test method: 悬停"点晴进销存管理系统"</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test021_WinSidebar_DianqingInvoicingManagementSystem_Experience@77fbd92c</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience.winLeft_MIS_Information_Communication()'><b>winLeft_MIS_Information_Communication</b><br>Test class: com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience<br>Test method: 验证：悬停"点晴MIS信息通（IM）"</td>
+<td></td>
+<td>0</td>
+<td>com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience@1b7cc17c</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test028_WinSidebar_DianqingPMSPortManagementSystem_Experience.winLeft_Port_Management_System()'><b>winLeft_Port_Management_System</b><br>Test class: com.f.dianqingoa.testcase.Test028_WinSidebar_DianqingPMSPortManagementSystem_Experience<br>Test method: 悬停"点晴PMS港口管理理系统"</td>
+<td></td>
+<td>4</td>
+<td>com.f.dianqingoa.testcase.Test028_WinSidebar_DianqingPMSPortManagementSystem_Experience@4f83df68</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test023_WinSidebar_DianqingAllStaffAttendance_Experience.winLeft_Solution_of_full_attendance()'><b>winLeft_Solution_of_full_attendance</b><br>Test class: com.f.dianqingoa.testcase.Test023_WinSidebar_DianqingAllStaffAttendance_Experience<br>Test method: 悬停"点晴全员考勤解决方案"</td>
+<td></td>
+<td>4</td>
+<td>com.f.dianqingoa.testcase.Test023_WinSidebar_DianqingAllStaffAttendance_Experience@72967906</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test024_WinSidebar_DianqingWMSWarehouseManagementSystem_Experience.winLeft_Warehouse_Management_System()'><b>winLeft_Warehouse_Management_System</b><br>Test class: com.f.dianqingoa.testcase.Test024_WinSidebar_DianqingWMSWarehouseManagementSystem_Experience<br>Test method: 悬停"点晴WMS仓储管理系统"</td>
+<td></td>
+<td>4</td>
+<td>com.f.dianqingoa.testcase.Test024_WinSidebar_DianqingWMSWarehouseManagementSystem_Experience@5b8dfcc1</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test025_WinSidebar_DianqingDRPWechatDistributionSystem_Experience.winLeft_Wechat_Distribution_System()'><b>winLeft_Wechat_Distribution_System</b><br>Test class: com.f.dianqingoa.testcase.Test025_WinSidebar_DianqingDRPWechatDistributionSystem_Experience<br>Test method: 悬停"点晴DRP微信分销系统"</td>
+<td></td>
+<td>4</td>
+<td>com.f.dianqingoa.testcase.Test025_WinSidebar_DianqingDRPWechatDistributionSystem_Experience@747ddf94</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience.winMain_Experience_Start1()'><b>winMain_Experience_Start1</b><br>Test class: com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience<br>Test method: 验证：点击"点晴MIS信息通（IM）"页"立即体验"</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test020_WinSidebar_DianqingMISInformationCommunication_Experience@1b7cc17c</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test029_WinSidebar_DianqingERPEnterpriseManagementSystem_Experience.winMain_Experience_Start10()'><b>winMain_Experience_Start10</b><br>Test class: com.f.dianqingoa.testcase.Test029_WinSidebar_DianqingERPEnterpriseManagementSystem_Experience<br>Test method: 点击"点晴ERP企业管理系统"页"立即体验"</td>
+<td></td>
+<td>14</td>
+<td>com.f.dianqingoa.testcase.Test029_WinSidebar_DianqingERPEnterpriseManagementSystem_Experience@55183b20</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test030_WinSidebar_DianqingDiecuttingERPManagementSystem_Experience.winMain_Experience_Start11()'><b>winMain_Experience_Start11</b><br>Test class: com.f.dianqingoa.testcase.Test030_WinSidebar_DianqingDiecuttingERPManagementSystem_Experience<br>Test method: 验证点击'点晴模切ERP管理系统'页'立即体验'跳转至'点晴ERP子系统'</td>
+<td></td>
+<td>8</td>
+<td>com.f.dianqingoa.testcase.Test030_WinSidebar_DianqingDiecuttingERPManagementSystem_Experience@6cf0e0ba</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test021_WinSidebar_DianqingInvoicingManagementSystem_Experience.winMain_Experience_Start2()'><b>winMain_Experience_Start2</b><br>Test class: com.f.dianqingoa.testcase.Test021_WinSidebar_DianqingInvoicingManagementSystem_Experience<br>Test method: 点击"点晴进销存管理系统"页"立即体验"</td>
+<td></td>
+<td>6</td>
+<td>com.f.dianqingoa.testcase.Test021_WinSidebar_DianqingInvoicingManagementSystem_Experience@77fbd92c</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test022_WinSidebar_DianqingCRMCustomerManagementSystem_Experience.winMain_Experience_Start3()'><b>winMain_Experience_Start3</b><br>Test class: com.f.dianqingoa.testcase.Test022_WinSidebar_DianqingCRMCustomerManagementSystem_Experience<br>Test method: 点击"点晴CRM客户管理系统"页"立即体验"</td>
+<td></td>
+<td>6</td>
+<td>com.f.dianqingoa.testcase.Test022_WinSidebar_DianqingCRMCustomerManagementSystem_Experience@1a482e36</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test023_WinSidebar_DianqingAllStaffAttendance_Experience.winMain_Experience_Start4()'><b>winMain_Experience_Start4</b><br>Test class: com.f.dianqingoa.testcase.Test023_WinSidebar_DianqingAllStaffAttendance_Experience<br>Test method: 点击"点晴全员考勤解决方案"页"立即体验"</td>
+<td></td>
+<td>5</td>
+<td>com.f.dianqingoa.testcase.Test023_WinSidebar_DianqingAllStaffAttendance_Experience@72967906</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test024_WinSidebar_DianqingWMSWarehouseManagementSystem_Experience.winMain_Experience_Start5()'><b>winMain_Experience_Start5</b><br>Test class: com.f.dianqingoa.testcase.Test024_WinSidebar_DianqingWMSWarehouseManagementSystem_Experience<br>Test method: 点击"点晴WMS仓储管理系统"页"立即体验"</td>
+<td></td>
+<td>7</td>
+<td>com.f.dianqingoa.testcase.Test024_WinSidebar_DianqingWMSWarehouseManagementSystem_Experience@5b8dfcc1</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test025_WinSidebar_DianqingDRPWechatDistributionSystem_Experience.winMain_Experience_Start6()'><b>winMain_Experience_Start6</b><br>Test class: com.f.dianqingoa.testcase.Test025_WinSidebar_DianqingDRPWechatDistributionSystem_Experience<br>Test method: 点击"点晴DRP微信分销系统"页"立即体验"</td>
+<td></td>
+<td>5</td>
+<td>com.f.dianqingoa.testcase.Test025_WinSidebar_DianqingDRPWechatDistributionSystem_Experience@747ddf94</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test026_WinSidebar_DianqingEBRBudgetReimbursementSystem_Experience.winMain_Experience_Start7()'><b>winMain_Experience_Start7</b><br>Test class: com.f.dianqingoa.testcase.Test026_WinSidebar_DianqingEBRBudgetReimbursementSystem_Experience<br>Test method: 点击"点晴EBR预算报销系统"页"立即体验"</td>
+<td></td>
+<td>4</td>
+<td>com.f.dianqingoa.testcase.Test026_WinSidebar_DianqingEBRBudgetReimbursementSystem_Experience@35e2d654</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test027_WinSidebar_DianqingInetIntranetCommunicationScheme_Experience.winMain_Experience_Start8()'><b>winMain_Experience_Start8</b><br>Test class: com.f.dianqingoa.testcase.Test027_WinSidebar_DianqingInetIntranetCommunicationScheme_Experience<br>Test method: 点击"点晴Inet内网通方案"页"立即体验"</td>
+<td></td>
+<td>2</td>
+<td>com.f.dianqingoa.testcase.Test027_WinSidebar_DianqingInetIntranetCommunicationScheme_Experience@1bd4fdd</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test028_WinSidebar_DianqingPMSPortManagementSystem_Experience.winMain_Experience_Start9()'><b>winMain_Experience_Start9</b><br>Test class: com.f.dianqingoa.testcase.Test028_WinSidebar_DianqingPMSPortManagementSystem_Experience<br>Test method: 点击"点晴PMS港口管理系统"页"立即体验"</td>
+<td></td>
+<td>6</td>
+<td>com.f.dianqingoa.testcase.Test028_WinSidebar_DianqingPMSPortManagementSystem_Experience@4f83df68</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement.workLogManagemen()'><b>workLogManagemen</b><br>Test class: com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement<br>Test method: 验证：展开'工作日志管理'<br>Parameters: 验证：点击'工作日志管理'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test002_Sidebar_WorkLogManagement@1d2adfbe</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet.work_contact_sheet()'><b>work_contact_sheet</b><br>Test class: com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet<br>Test method: 验证：展开'工作联络单'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test014_Sidebar_WorkContactSheet@4ec4f3a0</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement.work_plan_management()'><b>work_plan_management</b><br>Test class: com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement<br>Test method: 验证：展开'工作计划管理'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test009_Sidebar_WorkPlanManagement@77847718</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement.work_report_management()'><b>work_report_management</b><br>Test class: com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement<br>Test method: 验证：展开'工作报告管理'</td>
+<td></td>
+<td>2</td>
+<td>com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement@158d2680</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement.work_report_trackingLink()'><b>work_report_trackingLink</b><br>Test class: com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement<br>Test method: 验证：点击'工作报告管理'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test008_Sidebar_WorkReportManagement@158d2680</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement.workflow_already_doneLink()'><b>workflow_already_doneLink</b><br>Test class: com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement<br>Test method: 验证：点击'已办工作流'</td>
+<td></td>
+<td>3</td>
+<td>com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement.workflow_applicationLink()'><b>workflow_applicationLink</b><br>Test class: com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement<br>Test method: 验证：点击'工作流管理'</td>
+<td></td>
+<td>4</td>
+<td>com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638</td></tr>
+<tr>
+<td title='com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement.workflow_management()'><b>workflow_management</b><br>Test class: com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement<br>Test method: 验证：展开'工作流管理'</td>
+<td></td>
+<td>1</td>
+<td>com.f.dianqingoa.testcase.Test003_Sidebar_WorkFlowManagement@36902638</td></tr>
+</table><p>
+</body>
+</html>
